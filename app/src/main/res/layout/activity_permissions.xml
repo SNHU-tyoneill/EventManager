@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".PermissionsActivity">
+
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/back"/>
+
+    <TextView
+        android:id="@+id/smsPermissionSwitchLabel"
+        android:layout_below="@id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:padding="12dp"
+        android:text="@string/enable_sms_notifications" />
+
+    <Switch
+        android:id="@+id/smsPermissionSwitch"
+        android:layout_below="@id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@id/smsPermissionSwitchLabel"
+        android:padding="16dp" />
+
+</RelativeLayout>

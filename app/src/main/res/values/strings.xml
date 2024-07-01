@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">eventtracker_TyO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="add_event">Add Event</string>
+    <string name="event_name">Event Name</string>
+    <string name="enable_sms_notifications">Enable SMS Notifications</string>
+    <string name="permissions">permissions</string>
+    <string name="back">back</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="saveButton">Save</string>
+    <string name="delete">Delete</string>
+    <string name="notify">Notify</string>
+    <string name="notify_event_name">Event Name</string>
+</resources>
